@@ -1,18 +1,12 @@
 #include <stdio.h>
 
-
-/**
- * main - Prints the size of various typesa based on
- *the computer it is compiled and run on..
- *Return: Always 0.
- */
-int main(void) 
-{
-printf("Size of a char: %zu byte(s)\n", sizeof(char));
-printf("Size of an int: % zu byte(s)\n", sizeof(int));
-printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
-printf("Size of a long long int: % zu byte(s)\n", sizeof(long long int));
-printf("Size of a float %zu byte(s)\n", sizeof(float));
-return (0);
+int main() {
+   printf("The size of int is %d bytes\n", sizeof(int));
+   printf("The size of char is %d bytes\n", sizeof(char));
+   printf("The size of float is %d bytes\n", sizeof(float));
+   printf("The size of double is %d bytes\n", sizeof(double));
+   printf("The size of long int is %d bytes\n", sizeof(long int));
+   printf("The size of long long int is %d bytes\n", sizeof(long long int));
+   return 0;
 }
 
