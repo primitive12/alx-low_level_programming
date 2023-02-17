@@ -1,24 +1,18 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char lower = 'a';
-	char upper = 'A';
+	char letter = 'a';
 
-	while (lower <= 'z')
+	while (letter <= 'z')
 	{
-		putchar(lower);
+		putchar(letter);
 
-		lower++;
-	}
-	while (upper <= 'Z')
-	{
-		putchar(upper);
-
-		upper++;
+		letter++;
 	}
 
 	putchar('\n');
