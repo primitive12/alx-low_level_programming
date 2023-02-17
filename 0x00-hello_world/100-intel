@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CFILE="$1"
+BASENAME="${CFILE%.*}"
+ASSEMBLY_FILE="$BASENAME.s"
+
+gcc -S -masm=intel "$CFILE" -o "$ASSEMBLY_FILE"
+
