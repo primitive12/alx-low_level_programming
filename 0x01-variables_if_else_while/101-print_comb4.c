@@ -27,6 +27,5 @@ putchar(' ');
 }
 }
 }
-
 return (0);
 }
