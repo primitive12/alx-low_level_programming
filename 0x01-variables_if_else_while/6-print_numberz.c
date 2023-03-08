@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {	
 	 int a =48;
  	 while (a < 58)
@@ -9,4 +9,5 @@ int main()
 		 a++;
 }
 	 putchar(10);
+	 return(0);
 }
